@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ca736e96abc2f4ea8d534847879f21, type: 3}
+  m_Name: TV_FilterPreset1
+  m_EditorClassIdentifier: 
+  _noiseFilter:
+    _foldout: 1
+    _material: {fileID: 0}
+    _enabled: 1
+    pattern: {fileID: 2800000, guid: df0ffcc7ed4d822408d84a34b9d048e0, type: 3}
+    magnetude: 0.013
+    scale: {x: 4, y: 3}
+  _compositeFilter:
+    _foldout: 1
+    _material: {fileID: 0}
+    _enabled: 1
+    _materialBleeding: {fileID: 0}
+    lineCount: 384
+    distortion: 0
+    artifact: 0.01
+    fringing: 0.15
+    bleeding: 0.2
+  _staticFilter:
+    _foldout: 1
+    _material: {fileID: 0}
+    _enabled: 0
+    staticPattern: {fileID: 2800000, guid: 43a04c1efe2bb194e936e6b500cc884d, type: 3}
+    staticMagnitude: 0
+    staticScale: 4
+    staticOffset: 100.7
+    dirtPattern: {fileID: 2800000, guid: df0ffcc7ed4d822408d84a34b9d048e0, type: 3}
+    dirtMagnitude: 0
+  _televisionFilter:
+    _foldout: 1
+    _material: {fileID: 0}
+    _enabled: 1
+    lineCount: 224
+    sync: {x: 0, y: 0}
+    brightness: 0
+    contrast: 0
+    saturation: 1
+    sharpness: -0.3
+  _chromaticAberrationFilter:
+    _foldout: 1
+    _material: {fileID: 0}
+    _enabled: 1
+    pattern: {fileID: 2800000, guid: 739cbb7d52294184593ce6b7676a510b, type: 3}
+    magnetude: 0.2
+  _scanlineFilter:
+    _foldout: 1
+    _material: {fileID: 0}
+    _enabled: 1
+    pattern: {fileID: 2800000, guid: c0fffc9f0aaaf3d48958acb4c6ede296, type: 3}
+    lineCount: 108
+    magnetude: 0.95
+  _tubeFilter:
+    _foldout: 1
+    _material: {fileID: 0}
+    _enabled: 1
+    maskPattern: {fileID: 2800000, guid: 6a312130d87bd364c8c1de4199b61214, type: 3}
+    reflexPattern: {fileID: 0}
+    distortionMagnitude: 0.075
+    reflexMagnitude: 0.06

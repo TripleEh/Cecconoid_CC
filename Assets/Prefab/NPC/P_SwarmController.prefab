@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4415011940514901006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4415011940514901000}
+  - component: {fileID: 4415011940514901007}
+  m_Layer: 11
+  m_Name: P_SwarmController
+  m_TagString: Enemy
+  m_Icon: {fileID: 2800000, guid: fd20810741505ea4a861f40e14397448, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4415011940514901000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415011940514901006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.84, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4415011940514901007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415011940514901006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1d5651cb2532b42b82d593d0f74f66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_goAgentPrefab: {fileID: 2438902198397191398, guid: 94aae83cb8726384f99afd621f1be5e9,
+    type: 3}
+  m_fSpawnCount: 50
+  m_fSpawnRadius: 0.4
+  m_fAgentVelocity: 0.6
+  m_fAgentRotationSpeed: 6
+  m_fAgentDistance: 0.3
+  m_aSwarm: []
+  m_bPulseAgentDistance: 1
+  m_fDistancePulseSize: 0.075
+  m_fDistancePulseSpeed: 4
+  m_bPulseAgentVelocity: 0
+  m_fVelocityPulseSize: 0.05
+  m_fVelocityPulseSpeed: 4

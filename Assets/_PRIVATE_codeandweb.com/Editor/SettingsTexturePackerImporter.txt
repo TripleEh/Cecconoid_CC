@@ -1,0 +1,9 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Art/Textures/Game/TPage1.tpsheet
+textureFileNames:
+- Assets/Art/Textures/Game/T_TPage1.png
+normalmapFileNames:
+- 
+enableDebugOutput: 0
