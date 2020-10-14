@@ -10,7 +10,7 @@ Cecconoid requries:
 
 InControl (https://assetstore.unity.com/packages/tools/input-management/incontrol-14695) and will not run without it due to compiler errors. This is a commercial package that I can't distribute. 
 
-Unity 2019.1.xx -- It WILL NOT run under 2019.2.xx due to a 100% crash in the Unity editor, when writing into the particle array. (Yes, it's been reported, no, there's no fix at the time of writing...) 
+Unity 2019.1.xx -- It should now work under 2019.2.xx but there was a 100% crash in some editor versions when writing to the particle array. 
 
 ## License
 
