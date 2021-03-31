@@ -2,7 +2,7 @@
 
 # Cecconoid_CC
 
-This is a snapshot of the DRM free version of Cecconoid (https://store.steampowered.com/app/683310/Cecconoid/) under a creative commons license. 
+This is a snapshot of the DRM free version of Cecconoid (https://triple-eh.itch.io/cecconoid) under a creative commons license. 
 
 ## Requirements
 
